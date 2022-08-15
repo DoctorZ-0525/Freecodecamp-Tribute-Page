@@ -13,10 +13,17 @@ img {
   height:auto;
   display:flex;
   align-self: center;
+  margin: auto;
 }
 
 ul li{
   max-width:550px;
   margin:10px;
-  align-self:center;
+  text-align: center;
+  margin: auto;
+}
+li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
